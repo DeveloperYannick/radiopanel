@@ -1,0 +1,27 @@
+:root {
+    --nav-background: #3D4A53;
+    --nav-border: #323B3E;
+    --nav-items: #6f7c84;
+    --nav-items-icons: #bbc5ca;
+    --nav-dropdown-background: #FFF;
+    --nav-dropdown-font: #aaa;
+    --nav-dropdown-hover-font: #FFF;
+    --nav-hover: #ff99c7;
+    --background: #ECF0F1;
+    --news-font: #FFF;
+    --content-splitter: #D7DDDE;
+    --footer-background: #3D4A53;
+    --footer-list-heading: #FFF;
+    --footer-list-font: #AAB2B8;
+    --footer-hover: #ff99c7;
+    --footer-user-font: #9DA4AA;
+    --footer-user-motto: #4B565E;
+    --text-highlight: #FFF;
+    --player-background: #FFF;
+    --player-icon-background: #666;
+    --player-play-icon: #3498DB;
+    --player-play-background: rgba(52, 152, 219, .25);
+    --font-semibold: 500;
+    --default: #ff99c7;
+	--christmas-highlight: #247BA0;
+}

@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&subset=latin-ext);
+body {background:#f6f6f6;margin: 0;padding:0;color: #000;font-family: "Poppins", sans-serif;font-size: 16px;}
+#content {width:600px;margin:auto;background:#fff;padding:50px;margin-top:150px;margin-bottom:150px;}
+h3 {color:#099cec;margin:none;padding:none;}
+.upload-form {font-family: "Poppins", sans-serif;width:341px;margin:auto;}
+input.upload {cursor:pointer;padding:5px;font-family: "Poppins", sans-serif;background:#099cec;color:#fff;border:none;}
+.upload {padding:4.5px;}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+

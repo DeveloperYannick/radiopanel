@@ -1,0 +1,77 @@
+:root {
+    --nav-background: #1a1a1a;
+    --nav-border: #171717;
+    --nav-items: #6f7c84;
+    --nav-items-icons: #bbc5ca;
+    --nav-dropdown-background: #FFF;
+    --nav-dropdown-font: #aaa;
+    --nav-dropdown-hover-font: #FFF;
+    --feed-background: #151515;
+    --feed-tweets: #AAB2B8;
+    --background: #ECF0F1;
+    --news-font: #FFF;
+    --content-splitter: #D7DDDE;
+    --footer-background: #1a1a1a;
+    --footer-list-heading: #FFF;
+    --footer-list-font: #AAB2B8;
+    --footer-user-font: #9DA4AA;
+    --footer-user-motto: #4B565E;
+    --text-highlight: #FFF;
+    --player-background: #FFF;
+    --player-icon-background: #666;
+    --font-semibold: 500;
+}
+
+
+
+
+nav::before {
+    content: "";
+    background-image: -webkit-linear-gradient(top, #141414, #131313);
+    background-image: -moz-linear-gradient(top, #141414, #131313);
+    box-shadow: 0 1px #1f1f1f;
+}
+
+
+
+nav {
+    box-shadow: 0 3px #171717, 0 4px #0a0a0a;
+}
+
+.navbar-left > .nav-item:hover {
+    background-color: #242424;
+}
+
+
+.footer-content::before {
+    background-image: -webkit-linear-gradient(top, #141414, #131313);
+    background-image: -moz-linear-gradient(top, #141414, #131313);
+    box-shadow: 0 1px #1f1f1f;
+}
+
+.online-user {
+    padding: 10px 0 30px;
+    box-shadow: inset 0 -1px #0a0a0a, inset 0 -4px #151515, 0 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 -1px #0a0a0a, inset 0 -4px #151515, 0 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 -1px #0a0a0a, inset 0 -4px #151515, 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.copyright {
+    background-color: var(--feed-background);
+    background-image: url(../../img/mask.png);
+}
+
+
+/* Valentine */
+.header {
+    height: 400px;
+    background-color: #ed6da2;
+    background-image: url(''), radial-gradient(circle at center top, #ff99c7, #fd6d9d 60%, #f94f7a), url('');
+    -moz-box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.advent-color {
+	color: var(--christmas-highlight) !important;
+	transition: all .2s linear;
+}
